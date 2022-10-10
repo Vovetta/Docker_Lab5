@@ -1,0 +1,15 @@
+networks:
+  bridge-network:
+    driver: bridge
+
+services:
+  python:
+    build:
+      dockerfile: Dockerfile
+    container_name: python-counter
+    environment:
+      - PYTHONUNBUFFERED=1
+    ports:
+      - 8000:8000
+    networks:
+      - bridge-network
