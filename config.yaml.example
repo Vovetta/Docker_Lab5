@@ -1,0 +1,11 @@
+Service:
+  host: <service-host-ip>
+  port: <service-host-port>
+
+Database:
+  user: <database-user>
+  password: <database-user-password>
+  host: <database-host>
+  port: <database-port>
+  protocol: <database-protocol-asyncpg>
+  database: <database-name>

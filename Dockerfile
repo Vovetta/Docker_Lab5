@@ -6,7 +6,6 @@ COPY . .
 
 ENV NAME=Voldemar
 
-RUN pip install wheel
-RUN pip install -r requirements.txt
+RUN pip install wheel setuptools && pip install -r requirements.txt
 
 CMD ["python", "main.py"]
