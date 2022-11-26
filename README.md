@@ -5,8 +5,10 @@
 - FastAPI
 - Docker
 - Docker-compose
+- PostgreSQL
+- Nginx
 
 # Starting
 Fill config.yaml (already provided for Lab start)
 
-Run `docker-compose up` and prey on port `8000`: [http://localhost:8000](http://localhost:8000)
+Run `docker-compose up` and prey on port `4000`: [http://localhost:4000](http://localhost:4000)
